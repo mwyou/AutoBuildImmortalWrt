@@ -43,10 +43,10 @@ PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-alist-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-rclone-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 
 
 # 判断是否需要编译 Docker 插件
