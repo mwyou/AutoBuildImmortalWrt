@@ -28,25 +28,22 @@ PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 # 服务——FileBrowser 用户名admin 密码admin
-# PACKAGES="$PACKAGES luci-i18n-filebrowser-go-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-filebrowser-go-zh-cn"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #24.10
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-#PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-#PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
-#PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-alist-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-rclone-zh-cn"
-#PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
+
 
 
 # 判断是否需要编译 Docker 插件
